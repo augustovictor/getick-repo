@@ -1,0 +1,934 @@
+2015-06-15 03:45:21 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 36]
+2015-06-15 03:45:21 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 36, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 36, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:45:29 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 37]
+2015-06-15 03:45:29 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 37, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 37, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:45:36 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 37]
+2015-06-15 03:45:36 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 37, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 37, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:45:37 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 37]
+2015-06-15 03:45:37 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 37, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 37, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:45:45 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:47:34 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:47:35 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:47:35 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:47:46 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:47:47 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:47:51 Error: [MissingTableException] Table eventos for model Evento was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'eventos',
+  'class' => 'Evento',
+  'ds' => 'default',
+)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3644): Model->setSource('eventos')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(40): Model->find('all')
+#4 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 03:54:16 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:16 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:54:33 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:33 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:54:41 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:41 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:54:42 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:42 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:54:43 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:43 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:54:45 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:45 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:54:47 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 03:54:47 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /getick/cakephp-2.6.7/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 03:56:17 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 04:10:52 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Model/Event.php, line 105]
+2015-06-15 04:10:52 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /getick/cakephp-2.6.7/events/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 105, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 105, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 04:28:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php, line 51]
+2015-06-15 04:28:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 51, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 51, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 04:31:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Order.event_id' in 'on clause'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php(64): Model->find('all')
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-15 05:05:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(59): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:08:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(59): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:11:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(66): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:12:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(66): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:12:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(56): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:40:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(56): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:40:35 Error: [MissingActionException] Action EventsController::17() could not be found.
+Exception Attributes: array (
+  'controller' => 'EventsController',
+  'action' => '17',
+)
+Request URL: /getick/cakephp-2.6.7/events/17/tickets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-15 05:43:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.rght' in 'field list'
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT MAX(`Tic...', Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT MAX(`Tic...', Array, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT MAX(`Tic...', false)
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Ticket), Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(1066): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Behavior/TreeBehavior.php(197): TreeBehavior->_getMax(Object(Ticket), '1 = 1', 'rght', -1)
+#8 [internal function]: TreeBehavior->beforeSave(Object(Ticket), Array)
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1859): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#14 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/TicketsController.php(56): Model->save(Array)
+#15 [internal function]: TicketsController->add()
+#16 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#17 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#19 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-06-15 05:48:08 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/DboSource.php, line 460]
+2015-06-15 05:48:08 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /getick/cakephp-2.6.7/tickets/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/Applications/M...', 460)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/Applications/M...', 460, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/Applications/M...', 460, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 05:48:09 Error: Fatal Error (1): Allowed memory size of 33554432 bytes exhausted (tried to allocate 75 bytes) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/Database/Mysql.php, line 277]
+2015-06-15 05:48:16 Error: Fatal Error (1): Allowed memory size of 33554432 bytes exhausted (tried to allocate 78 bytes) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/Database/Mysql.php, line 277]
+2015-06-15 05:48:17 Error: Fatal Error (1): Allowed memory size of 33554432 bytes exhausted (tried to allocate 64 bytes) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/Database/Mysql.php, line 277]
+2015-06-15 06:00:26 Error: Fatal Error (1): Allowed memory size of 33554432 bytes exhausted (tried to allocate 80 bytes) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/Database/Mysql.php, line 277]
+2015-06-15 06:00:26 Error: [FatalErrorException] Allowed memory size of 33554432 bytes exhausted (tried to allocate 80 bytes)
+Request URL: /getick/cakephp-2.6.7/events
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/Applications/M...', 277)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/Applications/M...', 277, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/Applications/M...', 277, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 06:23:09 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Model/Datasource/Database/Mysql.php, line 273]
+2015-06-15 06:39:06 Error: [MissingHelperException] Helper class EventHelper could not be found.
+Exception Attributes: array (
+  'class' => 'EventHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/tickets/add/20
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Event')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('Event')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Tickets/add.ctp(6): View->__get('Event')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 06:39:16 Error: [MissingHelperException] Helper class TicketHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TicketHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/tickets/add/20
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Ticket')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('Ticket')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Tickets/add.ctp(6): View->__get('Ticket')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-06-15 07:00:40 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:01:36 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:04:03 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:04:39 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:04:45 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/EventsController.php, line 18]
+2015-06-15 07:04:45 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 07:05:04 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:05:39 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:06:57 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:07:08 Error: [MissingControllerException] Controller class GetickController could not be found.
+Exception Attributes: array (
+  'class' => 'GetickController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/getick/cakephp-2.6.7/comment/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 07:07:51 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:08:04 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:08:43 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:10:06 Error: [MissingControllerException] Controller class CommentController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/comment/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 07:10:18 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:11:04 Error: [MissingViewException] View file "Comments/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/add.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:11:59 Error: [NotFoundException] Invalid event
+Request URL: /getick/cakephp-2.6.7/events/view
+Stack Trace:
+#0 [internal function]: EventsController->view()
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:12:13 Error: [NotFoundException] Invalid event
+Request URL: /getick/cakephp-2.6.7/events/view
+Stack Trace:
+#0 [internal function]: EventsController->view()
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:12:14 Error: [NotFoundException] Invalid event
+Request URL: /getick/cakephp-2.6.7/events/view
+Stack Trace:
+#0 [internal function]: EventsController->view()
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:13:14 Error: [MissingActionException] Action EventsController::comments() could not be found.
+Exception Attributes: array (
+  'controller' => 'EventsController',
+  'action' => 'comments',
+)
+Request URL: /getick/cakephp-2.6.7/events/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-15 07:15:33 Error: [NotFoundException] Invalid ticket
+Request URL: /getick/cakephp-2.6.7/tickets/view/2
+Stack Trace:
+#0 [internal function]: TicketsController->view('2')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 07:18:19 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /getick/cakephp-2.6.7/contact
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-15 07:22:39 Error: [MissingControllerException] Controller class DisplayController could not be found.
+Exception Attributes: array (
+  'class' => 'DisplayController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/display/institutional
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 07:22:43 Error: [MissingControllerException] Controller class DisplayController could not be found.
+Exception Attributes: array (
+  'class' => 'DisplayController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/display/institutional
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 07:51:57 Error: Fatal Error (1): Call to undefined function allow() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 58]
+2015-06-15 07:51:57 Error: [FatalErrorException] Call to undefined function allow()
+Request URL: /getick/cakephp-2.6.7/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 58, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 58, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 08:22:22 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Pages/home.ctp, line 142]
+2015-06-15 08:22:22 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 142)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 142, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 142, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 08:22:29 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Pages/home.ctp, line 142]
+2015-06-15 08:22:29 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 142)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 142, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 142, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 08:22:44 Error: Fatal Error (4): syntax error, unexpected '(', expecting ';' in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Pages/home.ctp, line 142]
+2015-06-15 08:22:44 Error: [FatalErrorException] syntax error, unexpected '(', expecting ';'
+Request URL: /getick/cakephp-2.6.7/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 142)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 142, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 142, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 12:39:37 Error: [MissingControllerException] Controller class ContactsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactsController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/contacts/contact
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 17:29:12 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting '(' in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Comments/add.ctp, line 7]
+2015-06-15 17:29:12 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting '('
+Request URL: /getick/cakephp-2.6.7/comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 7, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 7, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 17:39:27 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /getick/cakephp-2.6.7/comments/delete/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/CommentsController.php(103): CakeRequest->allowMethod('post', 'delete')
+#1 [internal function]: CommentsController->delete('4')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-06-15 18:51:55 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/view.ctp, line 157]
+2015-06-15 18:51:55 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 157)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 157, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 157, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 18:52:06 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/view.ctp, line 157]
+2015-06-15 18:52:06 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 157)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 157, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 157, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 19:34:09 Error: [MissingControllerException] Controller class ContactsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactsController',
+  'plugin' => NULL,
+)
+Request URL: /getick/cakephp-2.6.7/contacts/send
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-15 19:35:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/AppController.php, line 59]
+2015-06-15 19:35:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /getick/cakephp-2.6.7/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-15 19:40:20 Error: [SocketException] Invalid email: ""
+Request URL: /getick/cakephp-2.6.7/contacts/send
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Network/Email/CakeEmail.php(592): CakeEmail->_validateEmail('')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Network/Email/CakeEmail.php(630): CakeEmail->_setEmail('_from', Array, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Network/Email/CakeEmail.php(375): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/ContactsController.php(9): CakeEmail->from(Array)
+#4 [internal function]: ContactsController->send()
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactsController), Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-06-15 19:43:07 Error: [SocketException] Invalid email: ""
+Request URL: /getick/cakephp-2.6.7/contacts/send
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Network/Email/CakeEmail.php(592): CakeEmail->_validateEmail('')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Network/Email/CakeEmail.php(630): CakeEmail->_setEmail('_from', Array, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Network/Email/CakeEmail.php(375): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/ContactsController.php(12): CakeEmail->from(Array)
+#4 [internal function]: ContactsController->send()
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactsController), Array)
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-06-15 19:43:51 Error: [MissingViewException] View file "Contacts/send.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contacts/send.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/contacts/send
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-15 19:44:32 Error: [MissingViewException] View file "Contacts/send.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contacts/send.ctp',
+)
+Request URL: /getick/cakephp-2.6.7/contacts/send
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

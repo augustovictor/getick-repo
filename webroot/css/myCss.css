@@ -1,0 +1,226 @@
+body {
+	background: url('../img/background.png');
+	font-family: 'PT Sans', 'sans-serif';
+	color: white;
+}
+
+h2 {
+	/*color: white;*/
+}
+
+input, textarea {
+	color: #222;
+}
+
+#content {
+	background: rgba(255, 255, 255);
+	/*background: lightgray;*/
+}
+
+#no-bg {
+	background: rgb(255, 255, 255, 0) !important;
+}
+
+
+#brand {
+	/*background: black;*/
+	margin: 4% 0 2% 0;
+}
+
+#brand-subtitle {
+	color: white;
+	font-size: 12px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#brand img {
+	/*-webkit-filter: invert(100%); */
+	width:30%;
+}
+
+#top-menu {
+	border-bottom: 1px solid #343035;
+	border-top: 1px solid #343035;
+}
+
+
+#top-menu ul li a{
+	letter-spacing: 3px;
+	padding: 10px 18px;
+	font-size: 10px;
+}
+
+#payments-container img {
+	height: 30px;
+}
+
+#top-menu ul li{
+	margin: 15px 55px 5px 55px;
+}
+
+#pixusLogo {
+	margin-top: 10px;
+	padding: 30px 30px 30px 20px;
+}
+
+#payment-container {
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	letter-spacing: 1.4;
+	padding: 20px;
+}
+
+#infos {
+	min-height: 295px;
+}
+
+#payment-container img {
+	margin: 0 20px;
+	max-width: 120px;
+}
+
+#pixusLogo img {
+	height: 12px;
+}
+
+#eventos-btn {
+	border-bottom: 4px solid #f89e05;
+}
+
+#listas-btn {
+	border-bottom: 4px solid #f06e04;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+}
+
+.nav a {
+	background: rgba(255, 255, 255, .1);
+	margin-right: 2px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.nav a:hover {
+	background: rgba(255, 255, 255, .2);
+	color: white;
+	margin-right: 2px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.login_container {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: rgba(255, 255, 255, .2);
+	color: white;
+	padding: 20px;
+	width: 450px;
+}
+
+.login_container legend {
+	color: white;
+}
+
+.login_container input {
+	margin-bottom: 10px;
+
+}
+
+.num-tickets span {
+	padding-top: 3px;
+}
+.styled-select select {
+	width: 240px;
+	height: 34px;
+	overflow: hidden;
+	/*background: url(new_arrow.png) no-repeat right #ddd;*/
+	border: 1px solid #ccc;
+}
+
+.styled-select select {
+	background: #47a447;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	-webkit-appearance: none;
+	text-transform: uppercase;
+	padding: 8px;
+	letter-spacing: 2px;
+}
+
+.num-tickets span {
+	font-size: 25px;	
+	margin-top: -15px;
+	width: 50px;
+}
+
+.info-container {
+	color: white;
+	/*display: none;*/
+}
+
+.display {
+	display: block;
+}
+
+.info-container p {
+	color: #7e7e7e;
+	letter-spacing: 1.5;
+	text-transform: uppercase;
+}
+
+.info-title {
+	color: white;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.custom-square-button {
+	background: ;
+	color: white;
+	font-size: 11px;
+	padding: 10px 12px;
+	text-transform: uppercase;
+}
+
+.middle-column {
+	border-left: 1px solid #343035;
+	border-right: 1px solid #343035;
+	margin-top:;
+}
+
+.border-container {
+	border-bottom: 1px solid #343035;
+	border-top: 1px solid #343035;
+	padding: 10px;
+}
+
+.carousel-caption {
+	padding-bottom: 0px;
+	bottom: 0px;
+}
+
+.buy-button-container {
+	margin-top: 10px;
+}
+
+.payment-button {
+	height: 40px;
+	margin-top:-34px;
+	opacity: 0.01;
+}
+
+.carousel-indicators {
+	bottom: -43px;
+}
