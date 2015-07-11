@@ -30,4 +30,52 @@ App::uses('Helper', 'View');
  * @package       app.View.Helper
  */
 class AppHelper extends Helper {
+	public function isVip($vip) {
+		if($vip) {
+			return 'Sim';
+		}
+		else {
+			return 'Não';
+		}
+	}
+
+	public function ifVip($vip) {
+		if($vip) {
+			return '(VIP)';
+		}
+	}
+
+	public function formatDate($date) {
+		$date = new DateTime($date);
+		return date_format($date, 'd/m/Y - H:i');
+	}
+
+	public function ticketOwner($owner) {
+		if($owner == null) {
+			return 'Disponível';
+		}
+		else return $owner;
+	}
+
+	public function priceFormat($value) {
+		return 'R$ ' . $value;
+	}
+
+	public function totalFundsEvent($eventId) {
+		// $soldTickets = $this->Ticket->find('all', 
+		// 	array(
+		// 		'conditions' => array(
+		// 			'Ticket.event_id' => $eventId,
+		// 			'Ticket.user_id !=' => null
+		// 		),
+		// 		'fields' => array('sum(Ticket.price) as totalSoldTickets')
+		// 	)
+		// );
+
+		
+
+		return $soldTickets;
+
+
+	}
 }

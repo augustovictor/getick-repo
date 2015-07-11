@@ -56,7 +56,7 @@ class AppController extends Controller {
 	public function beforeFilter() {
         $this->Auth->allow(array('index', 'view', 'login', 'add'));
         $this->Auth->allow(array('controller' => 'pages', 'action' => 'display'));
-        $this->Auth->allow(array('controller' => 'contacts', 'action' => 'send'));
+        $this->Auth->allow(array('controller' => 'contacts'));
         $this->set('loggedUser', $this->Auth->user());
 
         $this->loadModel('Event');
