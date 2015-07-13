@@ -2020,3 +2020,199 @@ Stack Trace:
 #3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-07-13 03:17:53 Error: Fatal Error (1): Call to undefined function length() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/index.ctp, line 9]
+2015-07-13 03:17:53 Error: [FatalErrorException] Call to undefined function length()
+Request URL: /getick/cakephp-2.6.7/events
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 03:18:08 Error: Fatal Error (1): Call to undefined function size() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/index.ctp, line 9]
+2015-07-13 03:18:08 Error: [FatalErrorException] Call to undefined function size()
+Request URL: /getick/cakephp-2.6.7/events
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 03:18:20 Error: Fatal Error (1): Call to undefined function size() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/index.ctp, line 9]
+2015-07-13 03:18:20 Error: [FatalErrorException] Call to undefined function size()
+Request URL: /getick/cakephp-2.6.7/events
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 03:18:59 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/index.ctp, line 9]
+2015-07-13 03:18:59 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /getick/cakephp-2.6.7/events
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 03:19:20 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/index.ctp, line 9]
+2015-07-13 03:19:20 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /getick/cakephp-2.6.7/events
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 04:15:48 Error: [MissingHelperException] Helper class paramHelper could not be found.
+Exception Attributes: array (
+  'class' => 'paramHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/orders/add/ticket:47205
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('param')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('param')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Orders/add.ctp(7): View->__get('param')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-07-13 04:16:01 Error: [MissingHelperException] Helper class paramHelper could not be found.
+Exception Attributes: array (
+  'class' => 'paramHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/orders/add/ticket:47205
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('param')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('param')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Orders/add.ctp(7): View->__get('param')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-07-13 04:16:15 Error: [MissingHelperException] Helper class paramHelper could not be found.
+Exception Attributes: array (
+  'class' => 'paramHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/orders/add/ticket:47205
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('param')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('param')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Orders/add.ctp(7): View->__get('param')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-07-13 04:16:20 Error: [MissingHelperException] Helper class paramHelper could not be found.
+Exception Attributes: array (
+  'class' => 'paramHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/orders/add/47205
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('param')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('param')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Orders/add.ctp(7): View->__get('param')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-07-13 06:49:06 Error: Fatal Error (1): Call to undefined method OrdersController::save() in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/Controller/OrdersController.php, line 70]
+2015-07-13 06:49:06 Error: [FatalErrorException] Call to undefined method OrdersController::save()
+Request URL: /getick/cakephp-2.6.7/orders/add/47205
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 70, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 70, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 07:00:33 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/view.ctp, line 113]
+2015-07-13 07:00:33 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 113)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 113, Array)
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 113, Array)
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 07:00:53 Error: [MissingHelperException] Helper class linkHelper could not be found.
+Exception Attributes: array (
+  'class' => 'linkHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('link')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('link')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/view.ctp(113): View->__get('link')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-07-13 07:09:47 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('User')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/view.ctp(113): View->__get('User')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-07-13 07:10:10 Error: [MissingHelperException] Helper class ModelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ModelHelper',
+  'plugin' => false,
+)
+Request URL: /getick/cakephp-2.6.7/events/view/19
+Stack Trace:
+#0 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Model')
+#1 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(848): HelperCollection->__isset('Model')
+#2 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/View/Events/view.ctp(113): View->__get('Model')
+#3 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(961): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(923): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/getick/cakephp-2.6.7/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

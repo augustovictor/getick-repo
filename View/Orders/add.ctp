@@ -3,9 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Add Order'); ?></legend>
 	<?php
-		echo $this->Form->input('user_id');
-		echo $this->Form->input('ticket_id');
-		echo $this->Form->input('date');
+		// echo $this->Form->input('user_id');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

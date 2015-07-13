@@ -27,7 +27,10 @@
 						<td> <?php echo $ticket['id']; ?> </td>
 						<td> <?php echo $ticket['lot']; ?> </td>
 						<td> <?php echo $this->App->priceFormat($ticket['price']); ?> </td>
-						<td> <?php echo $this->App->ticketOwner($ticket['user_id']); ?> </td>
+						<td> 
+							<?php if(isset($ticket['user_id'])) echo $this->Html->link($this->App->ticketOwner($ticket['user_id']), array('controller' => 'users', 'action' => 'view', $ticket['user_id'])); ?>
+							 <?php if(!isset($ticket['user_id'])) echo $this->App->ticketOwner($ticket['user_id']); ?> 
+						</td>
 					</tr>
 			
 				<?php endforeach ?>

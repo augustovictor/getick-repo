@@ -110,7 +110,7 @@
 			<tr>
 				<td><?php echo $ticket['id']; ?></td>
 				<td><?php echo $ticket['event_id']; ?></td>
-				<td><?php echo $ticket['user_id']; ?></td>
+				<td><?php echo $this->Html->link($ticket['user_id'], array('controller' => 'users', 'action' => 'view', $ticket['user_id'])); ?></td>
 				<td><?php echo $ticket['lot']; ?></td>
 				<td><?php echo $ticket['price']; ?></td>
 				<td><?php echo $ticket['created']; ?></td>
@@ -141,7 +141,7 @@
 	<?php foreach ($event['Comment'] as $comment): ?>
 		<li>
 			<?php #echo $comment['id']; ?>
-			<?php echo $comment['user_id']; ?>
+			<?php echo $comment['username']; ?>
 			<br />
 			<blockquote>
 				<?php echo $comment['comment']; ?>

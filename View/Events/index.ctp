@@ -1,11 +1,3 @@
-<div>
-
- 
-
- 
-
-</div>
-
 <div class="events index">
 	<h2><?php echo __('Events'); ?></h2>
 	<?php if($this->App->isAdmin($loggedUser)): ?>
@@ -14,8 +6,8 @@
 	
 	 <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#allEvents" aria-controls="allEvents" role="tab" data-toggle="tab">Todos os eventos</a></li>
-    <li role="presentation"><a href="#eventsImGoing" aria-controls="eventsImGoing" role="tab" data-toggle="tab">Eventos já comprados</a></li>
+    <li role="presentation" class="active"><a href="#allEvents" aria-controls="allEvents" role="tab" data-toggle="tab">Todos os eventos ( <?php echo sizeof($events); ?> )</a></li>
+    <li role="presentation"><a href="#eventsImGoing" aria-controls="eventsImGoing" role="tab" data-toggle="tab">Eventos já comprados ( <?php echo sizeof($boughtEvents); ?> )</a></li>
   </ul>
 
 	

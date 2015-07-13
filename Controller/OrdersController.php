@@ -21,6 +21,17 @@ class OrdersController extends AppController {
  *
  * @return void
  */
+
+	public function beforeFilter() {
+		$allowed_actions = array('add');
+		$this->Auth->allow($allowed_actions);
+        if ($this->Auth->user('role') !== 'admin' && !in_array($this->action, $allowed_actions)) 
+        	$this->redirect($this->referer());
+
+        parent::beforeFilter();
+    }
+
+
 	public function index() {
 		$this->Order->recursive = 0;
 		$this->set('orders', $this->Paginator->paginate());
@@ -46,12 +57,19 @@ class OrdersController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($ticket) {
+
 		if ($this->request->is('post')) {
 			$this->Order->create();
+			$this->request->data['Order']['ticket_id'] = $ticket;
+			$this->request->data['Order']['user_id'] = $this->Auth->user('id');
+			$ticketObj = $this->Order->Ticket->find('first', array('conditions' => array('Ticket.id' => $ticket)));
+			$ticketObj['Ticket']['user_id'] = $this->Auth->user('id');
+			// print_r($ticketObj['Ticket']['id']);
 			if ($this->Order->save($this->request->data)) {
+				$this->Order->Ticket->save($ticketObj);
 				$this->Session->setFlash(__('The order has been saved.'));
-				return $this->redirect(array('action' => 'index'));
+				return $this->redirect(array('controller' => 'pages', 'action' => 'display'));
 			} else {
 				$this->Session->setFlash(__('The order could not be saved. Please, try again.'));
 			}

@@ -88,15 +88,15 @@
 				<h1 class="info-title"> Comprar </h1>
 				<?php if(empty($event['Ticket'])) echo '<i> Nenhum ingresso foi cadastrado para este evento ainda. </i>' ?>
 				<?php foreach($event['Ticket'] as $ticket): ?>
-				<?php if($ticket['user_id']) continue; ?>
+				<?php if(isset($ticket['user_id'])) continue; ?>
 				<p>
 					<form role="form">
 
 						<div class="form-group">
-							<div class="styled-select" valor="12">
+							<!-- <div class="styled-select" valor="12">
 								<select required="true">
 								</select>
-							</div>
+							</div> -->
 							<br>
 								
 							
@@ -107,7 +107,7 @@
 							<br>
 							<br> -->
 							<p>
-					        <?php echo $this->Html->link('Seguir para pagamento', array('controller' => 'tickets', 'action' => 'buy', $ticket['id']), array('class' => 'btn btn-success col-md-12')); ?>
+					        <?php echo $this->Html->link('Seguir para pagamento', array('controller' => 'orders', 'action' => 'add', $ticket['id']), array('class' => 'btn btn-success col-md-12')); ?>
 							</p>
 						</div>
 						<!-- End form-group -->
