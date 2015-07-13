@@ -17,13 +17,19 @@ class UsersController extends AppController {
 	public $components = array('Paginator', 'Session');
 
 
-	// public function beforeFilter() {
- //        parent::beforeFilter();
- //        $this->Auth->allow('add');
- //        $this->set('loggedUser', $this->Auth->user());
- //    }
+	public function beforeFilter() {
+		$this->Auth->allow('add');
+        if ($this->Auth->user('role') !== 'admin' && !in_array($this->action, array('logout', 'login', 'add'))) 
+        	$this->redirect(array('controller' => 'pages', 'action' => 'display'));
+        parent::beforeFilter();
+    }
+
+
 
     public function login() {
+    	if($this->Auth->user())
+        	return $this->redirect(array('controller' => 'pages', 'action' => 'display'));
+
 	    if ($this->request->is('post')) {
 	        if ($this->Auth->login()) {
 	            return $this->redirect($this->Auth->redirectUrl());
@@ -43,6 +49,7 @@ class UsersController extends AppController {
  */
 
 	public function index() {
+		
 		$this->User->recursive = 0;
 		$this->set('users', $this->Paginator->paginate());
 	}
@@ -68,11 +75,15 @@ class UsersController extends AppController {
  * @return void
  */
 	public function add() {
+		if($this->Auth->user())
+        	return $this->redirect(array('controller' => 'pages', 'action' => 'display'));
+
 		if ($this->request->is('post')) {
 			$this->User->create();
+			$this->User->role = 'basic';
 			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('The user has been saved.'));
-				return $this->redirect(array('action' => 'index'));
+				return $this->redirect(array('controller' => 'pages', 'action' => 'display'));
 			} else {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}

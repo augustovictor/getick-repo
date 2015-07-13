@@ -1,7 +1,7 @@
 <h2> Contato </h2>
 
 <p>
-	Se você é organizado, promotor de festas ou tem alguma dúvida sobre o sistema, entre em contato conosco:
+	Se você é organizador, promotor de festas ou tem alguma dúvida sobre o sistema, entre em contato conosco:
 </p>
 
 <p>

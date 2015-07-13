@@ -21,9 +21,29 @@ class TicketsController extends AppController {
  *
  * @return void
  */
+
+	public function beforeFilter() {
+		$allowed_actions = array('index', 'view');
+		$this->Auth->allow($allowed_actions);
+        if ($this->Auth->user('role') !== 'admin' && !in_array($this->action, $allowed_actions)) 
+        	$this->redirect($this->referer());
+        if(!$this->Auth->user())
+        	$this->redirect(array('controller' => 'pages', 'action' => 'display'));
+
+        parent::beforeFilter();
+    }
+
 	public function index() {
-		$this->Ticket->recursive = 1;
-		$this->set('tickets', $this->Paginator->paginate());
+
+		if ($this->Auth->user('role') !== 'admin') {
+			$options = array('conditions' => array('Ticket.user_id' => $this->Auth->user('id')));
+			$this->set('tickets', $this->Ticket->find('all', $options));
+		}
+		if($this->Auth->user('role') === 'admin') {
+			$this->Ticket->recursive = 1;
+			$this->set('tickets', $this->Paginator->paginate());	
+		}
+		
 	}
 
 /**

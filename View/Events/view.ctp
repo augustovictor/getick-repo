@@ -1,9 +1,11 @@
 <div class="events view">
 <h2><?php echo __('Event'); ?></h2>
-	<?php echo $this->Html->link(__('Editar Evento'), array('action' => 'edit', $event['Event']['id']), array('class' => 'btn btn-primary')); ?>
-	<?php echo $this->Form->postLink(__('Deletar Evento'), array('action' => 'delete', $event['Event']['id']), array('class' => 'btn btn-danger'), __('Are you sure you want to delete # %s?', $event['Event']['id'])); ?>
-	<?php echo $this->Html->link(__('Novo convidado'), array('controller' => 'invitees', 'action' => 'add'), array('class' => 'btn btn-primary')); ?>
-	<?php echo $this->Html->link(__('Novo lote de ingressos'), array('controller' => 'tickets', 'action' => 'add'), array('class' => 'btn btn-primary')); ?>
+	<?php if($this->App->isAdmin($loggedUser)): ?>
+		<?php echo $this->Html->link(__('Editar Evento'), array('action' => 'edit', $event['Event']['id']), array('class' => 'btn btn-primary')); ?>
+		<?php echo $this->Form->postLink(__('Deletar Evento'), array('action' => 'delete', $event['Event']['id']), array('class' => 'btn btn-danger'), __('Are you sure you want to delete # %s?', $event['Event']['id'])); ?>
+		<?php echo $this->Html->link(__('Novo convidado'), array('controller' => 'invitees', 'action' => 'add'), array('class' => 'btn btn-primary')); ?>
+		<?php echo $this->Html->link(__('Novo lote de ingressos'), array('controller' => 'tickets', 'action' => 'add'), array('class' => 'btn btn-primary')); ?>
+	<?php endif; ?>
 
 	<dl>
 		<dd>
@@ -54,82 +56,85 @@
 	</dl>
 </div>
 
-<div class="related">
-	<h3><?php echo __('Convidados'); ?></h3>
-	<?php if (!empty($event['Invitee'])): ?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Name'); ?></th>
-		<th><?php echo __('Vip'); ?></th>
-		<th><?php echo __('Document Type'); ?></th>
-		<th><?php echo __('Document Number'); ?></th>
-		<th><?php echo __('Event Id'); ?></th>
-		<th class="actions"><?php echo __('Actions'); ?></th>
-	</tr>
-	<?php foreach ($event['Invitee'] as $invitee): ?>
+<?php if($this->App->isAdmin($loggedUser)): ?>
+	<div class="related">
+		<h3><?php echo __('Convidados'); ?></h3>
+		<?php if (!empty($event['Invitee'])): ?>
+		<table cellpadding = "0" cellspacing = "0">
 		<tr>
-			<td><?php echo $invitee['id']; ?></td>
-			<td><?php echo $invitee['name']; ?></td>
-			<td><?php echo $invitee['vip']; ?></td>
-			<td><?php echo $invitee['document_type']; ?></td>
-			<td><?php echo $invitee['document_number']; ?></td>
-			<td><?php echo $invitee['event_id']; ?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'invitees', 'action' => 'view', $invitee['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'invitees', 'action' => 'edit', $invitee['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'invitees', 'action' => 'delete', $invitee['id']), array(), __('Are you sure you want to delete # %s?', $invitee['id'])); ?>
-			</td>
+			<th><?php echo __('Id'); ?></th>
+			<th><?php echo __('Name'); ?></th>
+			<th><?php echo __('Vip'); ?></th>
+			<th><?php echo __('Document Type'); ?></th>
+			<th><?php echo __('Document Number'); ?></th>
+			<th><?php echo __('Event Id'); ?></th>
+			<th class="actions"><?php echo __('Actions'); ?></th>
 		</tr>
-	<?php endforeach; ?>
-	</table>
-<?php endif; ?>
+		<?php foreach ($event['Invitee'] as $invitee): ?>
+			<tr>
+				<td><?php echo $invitee['id']; ?></td>
+				<td><?php echo $invitee['name']; ?></td>
+				<td><?php echo $invitee['vip']; ?></td>
+				<td><?php echo $invitee['document_type']; ?></td>
+				<td><?php echo $invitee['document_number']; ?></td>
+				<td><?php echo $invitee['event_id']; ?></td>
+				<td class="actions">
+					<?php echo $this->Html->link(__('View'), array('controller' => 'invitees', 'action' => 'view', $invitee['id'])); ?>
+					<?php echo $this->Html->link(__('Edit'), array('controller' => 'invitees', 'action' => 'edit', $invitee['id'])); ?>
+					<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'invitees', 'action' => 'delete', $invitee['id']), array(), __('Are you sure you want to delete # %s?', $invitee['id'])); ?>
+				</td>
+			</tr>
+		<?php endforeach; ?>
+		</table>
+	<?php endif; ?>
 
-	<div class="actions">
-			<?php echo $this->Html->link(__('Adiiconar convidado'), array('controller' => 'invitees', 'action' => 'add'), array('class' => 'btn btn-primary')); ?>
+		<div class="actions">
+				<?php echo $this->Html->link(__('Adiiconar convidado'), array('controller' => 'invitees', 'action' => 'add'), array('class' => 'btn btn-primary')); ?>
+		</div>
 	</div>
-</div>
-<div class="related">
-	<h3><?php echo __('Ingressos para este evento'); ?></h3>
-	<?php if (!empty($event['Ticket'])): ?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Event Id'); ?></th>
-		<th><?php echo __('User Id'); ?></th>
-		<th><?php echo __('Lot'); ?></th>
-		<th><?php echo __('Price'); ?></th>
-		<th><?php echo __('Created At'); ?></th>
-		<th><?php echo __('Sold At'); ?></th>
-		<th class="actions"><?php echo __('Actions'); ?></th>
-	</tr>
-	<?php foreach ($event['Ticket'] as $ticket): ?>
+	<div class="related">
+		<h3><?php echo __('Ingressos para este evento'); ?></h3>
+		<?php if (!empty($event['Ticket'])): ?>
+		<table cellpadding = "0" cellspacing = "0">
 		<tr>
-			<td><?php echo $ticket['id']; ?></td>
-			<td><?php echo $ticket['event_id']; ?></td>
-			<td><?php echo $ticket['user_id']; ?></td>
-			<td><?php echo $ticket['lot']; ?></td>
-			<td><?php echo $ticket['price']; ?></td>
-			<td><?php echo $ticket['created']; ?></td>
-			<td><?php echo $ticket['sold_at']; ?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'tickets', 'action' => 'view', $ticket['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'tickets', 'action' => 'edit', $ticket['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'tickets', 'action' => 'delete', $ticket['id']), array(), __('Are you sure you want to delete # %s?', $ticket['id'])); ?>
-			</td>
+			<th><?php echo __('Id'); ?></th>
+			<th><?php echo __('Event Id'); ?></th>
+			<th><?php echo __('User Id'); ?></th>
+			<th><?php echo __('Lot'); ?></th>
+			<th><?php echo __('Price'); ?></th>
+			<th><?php echo __('Created At'); ?></th>
+			<th><?php echo __('Sold At'); ?></th>
+			<th class="actions"><?php echo __('Actions'); ?></th>
 		</tr>
-	<?php endforeach; ?>
-	</table>
+		<?php foreach ($event['Ticket'] as $ticket): ?>
+			<tr>
+				<td><?php echo $ticket['id']; ?></td>
+				<td><?php echo $ticket['event_id']; ?></td>
+				<td><?php echo $ticket['user_id']; ?></td>
+				<td><?php echo $ticket['lot']; ?></td>
+				<td><?php echo $ticket['price']; ?></td>
+				<td><?php echo $ticket['created']; ?></td>
+				<td><?php echo $ticket['sold_at']; ?></td>
+				<td class="actions">
+					<?php echo $this->Html->link(__('View'), array('controller' => 'tickets', 'action' => 'view', $ticket['id'])); ?>
+					<?php echo $this->Html->link(__('Edit'), array('controller' => 'tickets', 'action' => 'edit', $ticket['id'])); ?>
+					<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'tickets', 'action' => 'delete', $ticket['id']), array(), __('Are you sure you want to delete # %s?', $ticket['id'])); ?>
+				</td>
+			</tr>
+		<?php endforeach; ?>
+		</table>
+	<?php endif; ?>
+
+
+	</div>
 <?php endif; ?>
-
-
-</div>
 
 
 
 
 <div class="related">
 	<h3><?php echo __('Comments'); ?></h3>
+	<?php echo $this->Html->Link('add comentário', array('controller' => 'comments', 'action' => 'add'), array('class' => 'btn btn-xs btn-primary')); ?>
 	<?php if (empty($event['Comment'])) echo '<i> Nenhum comentário ainda. </i>'; ?>
 	<?php if (!empty($event['Comment'])): ?>
 	<ul>
@@ -150,7 +155,6 @@
 	<?php endforeach; ?>
 	</ul>
 <?php endif; ?>
-
 
 
 </div>

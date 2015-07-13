@@ -15,6 +15,7 @@
 	<tr>
 		<td><?php echo h($comment['Comment']['id']); ?>&nbsp;</td>
 		<td>
+			<?php if($comment['Comment']['user_id'] == 0) echo $comment['Comment']['username']; ?>
 			<?php echo $this->Html->link($comment['User']['name'], array('controller' => 'users', 'action' => 'view', $comment['User']['id'])); ?>
 		</td>
 		<td>

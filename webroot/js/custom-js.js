@@ -56,6 +56,7 @@ $( document ).ready(function() {
 
   $('table').addClass('table table-striped table-hover table-condensed');
 
+
   // $('.info-container').hide();
   // $('.carousel-inner .item').each(function() {
   //   if ($(this).hasClass('active')) {

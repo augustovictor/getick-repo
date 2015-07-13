@@ -21,6 +21,16 @@ class InviteesController extends AppController {
  *
  * @return void
  */
+
+	public function beforeFilter() {
+		$allowed_actions = array();
+		$this->Auth->allow($allowed_actions);
+        if ($this->Auth->user('role') !== 'admin' && !in_array($this->action, $allowed_actions)) 
+        	$this->redirect($this->referer());
+
+        parent::beforeFilter();
+    }
+
 	public function index() {
 		$this->Invitee->recursive = 0;
 		$this->set('invitees', $this->Paginator->paginate());

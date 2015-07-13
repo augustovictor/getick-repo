@@ -141,9 +141,8 @@
 								<blockquote>
 									<?php echo $comment['comment']; ?>
 								</blockquote>
-								<?php if($loggedUser): ?>
+								<?php if(($loggedUser && $loggedUser['id'] == $comment['user_id']) || $this->App->isAdmin($loggedUser)): ?>
 									<div class="actions row">
-										<?php echo $this->Html->link(__('Edit'), array('controller' => 'tickets', 'action' => 'edit', $comment['id']), array('class' => 'btn btn-xs btn-success')); ?>
 										<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'comments', 'action' => 'delete', $comment['id']), array('class' => 'btn btn-xs btn-danger'), array(), __('Are you sure you want to delete # %s?', $comment['id'])); ?>
 									</div>
 								<?php endif; ?>

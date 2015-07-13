@@ -21,6 +21,12 @@ class CommentsController extends AppController {
  *
  * @return void
  */
+
+	public function beforeFilter() {
+		parent::beforeFilter();
+		$this->Auth->allow('add');
+	}
+
 	public function index() {
 		$this->Comment->recursive = 0;
 		$this->set('comments', $this->Paginator->paginate());
@@ -51,7 +57,7 @@ class CommentsController extends AppController {
 			$this->Comment->create();
 			if ($this->Comment->save($this->request->data)) {
 				$this->Session->setFlash(__('The comment has been saved.'));
-				return $this->redirect(array('controller' => 'events', 'action' => 'index'));
+				return $this->redirect(array('controller' => 'pages', 'action' => 'display'));
 			} else {
 				$this->Session->setFlash(__('The comment could not be saved. Please, try again.'));
 			}
@@ -106,6 +112,6 @@ class CommentsController extends AppController {
 		} else {
 			$this->Session->setFlash(__('The comment could not be deleted. Please, try again.'));
 		}
-		return $this->redirect(array('action' => 'index'));
+		return $this->redirect(array('controler' => 'pages', 'action' => 'index'));
 	}
 }

@@ -21,10 +21,24 @@ class EventsController extends AppController {
  *
  * @return void
  */
+	public function beforeFilter() {
+		$allowed_actions = array('index', 'view');
+		$this->Auth->allow($allowed_actions);
+        if ($this->Auth->user('role') !== 'admin' && !in_array($this->action, $allowed_actions)) 
+        	$this->redirect($this->referer());
+
+        parent::beforeFilter();
+    }
+
+
 	public function index() {
+		$options = array('conditions' => array('Ticket.user_id' => $this->Auth->user('id')));
+		$this->set('boughtEvents', $this->Event->Ticket->find('all', $options));
+
 		$this->Event->recursive = 0;
 		$this->set('events', $this->Paginator->paginate());
 	}
+
 
 /**
  * view method

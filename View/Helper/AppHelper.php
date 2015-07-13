@@ -30,6 +30,7 @@ App::uses('Helper', 'View');
  * @package       app.View.Helper
  */
 class AppHelper extends Helper {
+
 	public function isVip($vip) {
 		if($vip) {
 			return 'Sim';
@@ -77,5 +78,10 @@ class AppHelper extends Helper {
 		return $soldTickets;
 
 
+	}
+
+	public function isAdmin($currentUser) {
+		if ($currentUser['role'] == 'admin') return true;
+		else return false;
 	}
 }

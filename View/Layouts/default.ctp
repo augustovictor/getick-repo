@@ -63,25 +63,28 @@ $cakeDescription = __d('cake_dev', 'Getick');
 <body>
 
 	<div class="nav">
-		<?php if ($loggedUser): ?>
+		<?php if(isset($loggedUser)) print_r($loggedUser); ?>
+		<?php if (isset($loggedUser)): ?>
 			<?php echo $this->Html->link('Eventos', array('controller' => 'events', 'action' => 'index'), array('id' => 'eventos-btn', 'class' => 'col-md-2')); ?>
 
 			<?php #echo $this->Html->link('Listas de convidados', array('controller' => ''), array('id' => 'listas-btn', 'class' => 'col-md-2')); ?>
 
-			<?php # echo $this->Html->link('Ingressos', array('controller' => 'ingressos', 'action' => 'index')); ?>
+			<?php echo $this->Html->link('Meus ingressos', array('controller' => 'tickets', 'action' => 'index'), array('id' => 'listas-btn', 'class' => 'col-md-2  align-right')); ?>
 
+			<?php if($this->App->isAdmin($loggedUser)): ?>
 
-			<?php echo $this->Html->link('Relatório de eventos', array('controller' => 'reports', 'action' => 'events_report'), array('id' => 'listas-btn', 'class' => 'col-md-2  align-right')); ?>
+				<?php echo $this->Html->link('Relatório de eventos', array('controller' => 'reports', 'action' => 'events_report'), array('id' => 'listas-btn', 'class' => 'col-md-2  align-right')); ?>
 
-			<?php echo $this->Html->link('Relatório de ingresoss', array('controller' => 'reports', 'action' => 'tickets_report'), array('id' => 'listas-btn', 'class' => 'col-md-2 align-right')); ?>
+				<?php echo $this->Html->link('Relatório de ingresoss', array('controller' => 'reports', 'action' => 'tickets_report'), array('id' => 'listas-btn', 'class' => 'col-md-2 align-right')); ?>
 
-			<?php echo $this->Html->link('Relatório de usuários', array('controller' => 'reports', 'action' => 'users_report'), array('id' => 'listas-btn', 'class' => 'col-md-2 align-right')); ?>
+				<?php echo $this->Html->link('Relatório de usuários', array('controller' => 'reports', 'action' => 'users_report'), array('id' => 'listas-btn', 'class' => 'col-md-2 align-right')); ?>
+			<?php endif; ?>
 
 
 			<?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'), array('class' => 'col-md-1 pull-right')); ?>
 		 <?php endif; ?>
 
-		<?php if (!$loggedUser): ?> 
+		<?php if (!isset($loggedUser)): ?> 
 			<?php echo $this->Html->link('Login', array('controller' => 'users', 'action' => 'login'), array('class' => 'col-md-2 align-right')); ?>
 			<?php echo $this->Html->link('Cadastro', array('controller' => 'users', 'action' => 'add'), array('class' => 'col-md-2 align-right')); ?>
 		<?php endif; ?>
@@ -127,6 +130,6 @@ $cakeDescription = __d('cake_dev', 'Getick');
 
 		</div>
 	</div>
-	<?php #echo $this->element('sql_dump'); ?>
+	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>

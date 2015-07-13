@@ -36,8 +36,8 @@ class AppController extends Controller {
         'Session',
         'Auth' => array(
             'loginRedirect' => array(
-                'controller' => 'users',
-                'action' => 'index'
+                'controller' => 'pages',
+                'action' => 'display'
             ),
             'logoutRedirect' => array(
                 'controller' => 'pages',
@@ -53,8 +53,9 @@ class AppController extends Controller {
     );
 
 
+
 	public function beforeFilter() {
-        $this->Auth->allow(array('index', 'view', 'login', 'add'));
+        // $this->Auth->allow('index', 'view', 'add', 'edit', 'delete');
         $this->Auth->allow(array('controller' => 'pages', 'action' => 'display'));
         $this->Auth->allow(array('controller' => 'contacts'));
         $this->set('loggedUser', $this->Auth->user());
@@ -69,5 +70,5 @@ class AppController extends Controller {
         $this->loadModel('User');
         $this->set('users', $this->User->find('all'));
     }
-	
+
 }
